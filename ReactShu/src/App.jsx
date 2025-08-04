@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <audio autoPlay loop controls src={BGM}></audio>
+      <audio autoPlay loop src={BGM}></audio>
       <div className="content">
         <h1 id='top'>Welcome to Shu's Ricefield!</h1>
         <video
